@@ -1,25 +1,25 @@
 class Plexus < Formula
   desc "Network-aware knowledge graph engine with self-reinforcing edges"
   homepage "https://github.com/nrgforge/plexus"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nrgforge/plexus/releases/download/v0.2.0/plexus-aarch64-apple-darwin.tar.xz"
-      sha256 "527bfdbc7cda99a5c427f1ff96b7523c76bf0436c836a029d213313fd6657164"
+      url "https://github.com/nrgforge/plexus/releases/download/v0.3.0/plexus-aarch64-apple-darwin.tar.xz"
+      sha256 "9a87a84c3e2e94b010ae639a688750fdbca9c5e7f406c05886fca1ebf43fea6b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nrgforge/plexus/releases/download/v0.2.0/plexus-x86_64-apple-darwin.tar.xz"
-      sha256 "dce143d8e7622085704a83869629a92d3f491e96f01749e6a6864f9f7b79a3e9"
+      url "https://github.com/nrgforge/plexus/releases/download/v0.3.0/plexus-x86_64-apple-darwin.tar.xz"
+      sha256 "6f934b3aaf84489abb215d7dc208a235e1308906c140c8b213e9fd37d36ab2c0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/nrgforge/plexus/releases/download/v0.2.0/plexus-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2cebbd64a09b14e1fcdb97806b96c6d5075de1db5e4601d55ac2cf28bbad6e7e"
+      url "https://github.com/nrgforge/plexus/releases/download/v0.3.0/plexus-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2d3df593a508652747719bd141b540f69bd0e20ab5d69022de9b2261afb7771b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nrgforge/plexus/releases/download/v0.2.0/plexus-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "aa735ffdf6b6899f1b2b55002d24e3cc688d117ec5d68ea1912c5b0283f56fcc"
+      url "https://github.com/nrgforge/plexus/releases/download/v0.3.0/plexus-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1bf4d446e2dd3659cc42b589ec3eae8a64ab0b4078e0240cf1238a5c3b8c946c"
     end
   end
   license "AGPL-3.0-or-later"
