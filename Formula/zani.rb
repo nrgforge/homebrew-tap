@@ -1,25 +1,25 @@
 class Zani < Formula
   desc "A terminal writing app"
   homepage "https://github.com/nrgforge/zani"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nrgforge/zani/releases/download/v0.1.0/zani-aarch64-apple-darwin.tar.xz"
-      sha256 "5e389c3db3f6f4dace67fb9e0494aff2842d940d31b5f9571153a850e2ab289e"
+      url "https://github.com/nrgforge/zani/releases/download/v0.2.0/zani-aarch64-apple-darwin.tar.xz"
+      sha256 "377f519ab81a2a7db9716cef9216056281d88bb917bc6edd5c1cba00c15a6535"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nrgforge/zani/releases/download/v0.1.0/zani-x86_64-apple-darwin.tar.xz"
-      sha256 "a0bd9e37bfe194cd1d90e47f37e4b12bd8e353bd9dc438c39195c4475f4d266d"
+      url "https://github.com/nrgforge/zani/releases/download/v0.2.0/zani-x86_64-apple-darwin.tar.xz"
+      sha256 "e21ba95d4117b9b532f5a2f6d92ce26ed3b783d89d86e10d7decdb7f87b9f66e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/nrgforge/zani/releases/download/v0.1.0/zani-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0d3b50eac77850b76dcc1724858a2c46a24157a223186638f53e44dfebfba873"
+      url "https://github.com/nrgforge/zani/releases/download/v0.2.0/zani-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3dff67d42327378c14bff8526694b8e8372c9452389798e72a2a535f12e849e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nrgforge/zani/releases/download/v0.1.0/zani-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d1d303d5520622ad3c4b9b3623e0c917a6854c285588e44655acf00564f874e6"
+      url "https://github.com/nrgforge/zani/releases/download/v0.2.0/zani-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c580d5d8fc8be69aa136d829b6fd07d76bfff1f5b18c6e144ee24788b14c75db"
     end
   end
   license "MIT"
